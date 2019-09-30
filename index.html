@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap-3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap-3/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://use.fontawesome.com/bff346c4af.js"></script>
+    <title>Lima visual | Version 5.0</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="lib/bootstrap-3/js/bootstrap.min.js"></script>
+    <script src="lib/smooth-scroll.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]', {
+      // Selectors
+      ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+      header: null, // Selector for fixed headers (must be a valid CSS selector)
+      // Speed & Easing
+      speed: 2200, // Integer. How fast to complete the scroll in milliseconds
+      offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+      easing: 'easeInOutCubic', // Easing pattern to use
+      customEasing: function (time) {}, // Function. Custom easing pattern
+      // Callback API
+      before: function () {}, // Callback to run before scroll
+      after: function () {} // Callback to run after scroll
+      });
+    </script>
+  </head>
+</html>
+<body>
+  <header>
+    <nav class="menu">
+      <ul>
+        <li id="primero"><a data-scroll="" href="#sec-2">ACERCA DE LVS</a></li>
+        <li id="segundo"><a data-scroll="" href="#sec-3">MASTER CLASES</a></li>
+        <li id="tercero"><a data-scroll="" href="#sec-4">CHARLAS Y TALLERES</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="carousel slide" id="myCarousel" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item active"><img src="assets/images/slider/slider-1.jpg" alt=""></div>
+      <div class="item"><img src="assets/images/slider/slider-2.jpg" alt=""></div>
+      <div class="item"><img src="assets/images/slider/slider-3.jpg" alt=""></div>
+    </div>
+  </div>
+  <div class="container-fluid-seccion">
+    <div id="fondo-seccion-2">
+      <div class="row flex-items-xs-center flex-items-xs-middle" id="sec-2">
+        <div class="cuerpo_nosotros">
+          <p>
+            Profesionales del medio compartirán contigo sus experienciasen temas relacionados con publicidad,
+            diseño, comunicación, fotografía, ilustración,
+            tipografía, lettering y muchas especialidades más.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-seccion">
+    <div id="fondo-seccion-3">
+      <div id="sec-3">
+        <div id="expositores">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="bloque-expositor">
+                  <div class="curva">
+                    <div class="texto-exp">
+                      <p>veronica</p>
+                      <p>calderon</p>
+                    </div>
+                    <div class="flecha">
+                      <div class="modal-team" id="btnTop2" data-toggle="modal" data-target="#btn_top1"><img src="assets/images/icon-flecha.png" alt=""></div>
+                    </div>
+                  </div><img class="img-responsive" src="assets/images/otro-exp-1.png" alt="">
+                  <!-- <img href="expositor1.html" src="assets/images/expositores.png">-->
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="bloque-expositor">
+                  <div class="curva">
+                    <div class="texto-exp">
+                      <p>pedro</p>
+                      <p>melian</p>
+                    </div>
+                    <div class="flecha">
+                      <div class="modal-team" id="btnTop3" data-toggle="modal" data-target="#btn_top2"><img src="assets/images/icon-flecha.png" alt=""></div>
+                    </div>
+                  </div>
+                  <!-- --><img class="img-responsive" src="assets/images/otro-exp-2.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="bloque-expositor">
+                  <div class="curva">
+                    <div class="texto-exp">
+                      <p>lucia</p>
+                      <p>nolasco</p>
+                    </div>
+                    <div class="flecha">
+                      <div class="modal-team" id="btnTop4" data-toggle="modal" data-target="#btn_top3"><img src="assets/images/icon-flecha.png" alt=""></div>
+                    </div>
+                  </div><img class="img-responsive" src="assets/images/otro-exp-3.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="bloque-expositor">
+                  <div class="curva">
+                    <div class="texto-exp">
+                      <p>carlos</p>
+                      <p>duando</p>
+                    </div>
+                    <div class="flecha">
+                      <div class="modal-team" id="btnTop5" data-toggle="modal" data-target="#btn_top4"><img src="assets/images/icon-flecha.png" alt=""></div>
+                    </div>
+                  </div><img class="img-responsive" src="assets/images/otro-exp-4.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="bloque-expositor">
+                  <div class="curva">
+                    <div class="texto-exp">
+                      <p>veronica</p>
+                      <p>duando</p>
+                    </div>
+                    <div class="flecha">
+                      <div class="modal-team" id="btnTop6" data-toggle="modal" data-target="#btn_top5"><img src="assets/images/icon-flecha.png" alt=""></div>
+                    </div>
+                  </div><img class="img-responsive" src="assets/images/otro-exp-5.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="bloque-expositor">
+                  <div class="curva">
+                    <div class="texto-exp">
+                      <p>veronica</p>
+                      <p>duando</p>
+                    </div>
+                    <div class="flecha">
+                      <div class="modal-team" id="btnTop7" data-toggle="modal" data-target="#btn_top6"><img src="assets/images/icon-flecha.png" alt=""></div>
+                    </div>
+                    <div class="limpiar"></div>
+                  </div><img class="img-responsive" src="assets/images/otro-exp-6.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="bloque-expositor">
+                  <div class="curva">
+                    <div class="texto-exp">
+                      <p>veronica</p>
+                      <p>duando</p>
+                    </div>
+                    <div class="flecha">
+                      <div class="modal-team" id="btnTop8" data-toggle="modal" data-target="#btn_top7"><img src="assets/images/icon-flecha.png" alt=""></div>
+                    </div>
+                    <div class="limpiar"></div>
+                  </div><img class="img-responsive" src="assets/images/otro-exp-7.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <div class="bloque-expositor">
+                  <div class="curva">
+                    <div class="texto-exp">
+                      <p>veronica</p>
+                      <p>duando</p>
+                    </div>
+                    <div class="flecha">
+                      <div class="modal-team" id="btnTop8" data-toggle="modal" data-target="#btn_top8"><img src="assets/images/icon-flecha.png" alt=""></div>
+                    </div>
+                    <div class="limpiar"></div>
+                  </div><img class="img-responsive" src="assets/images/otro-exp-8.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-seccion">
+    <div id="fondo-seccion-3_1"></div>
+  </div>
+  <div class="container-fluid-seccion">
+    <div id="fondo-seccion-4">
+      <div id="sec-4">
+        <div class="container">
+          <div class="row">
+            <!-- -->
+            <div class="section-4">
+              <div class="col-sm-3 col-xs-6">
+                <div class="bloque-fecha">
+                  <h4>lu 
+                    <p>nes</p>
+                  </h4>
+                  <p class="dia">19</p>
+                </div>
+                <div class="bloque-fecha">
+                  <h4>mar
+                    <p>tes</p>
+                  </h4>
+                  <p class="dia">20</p>
+                </div>
+                <div class="bloque-fecha">
+                  <h4>mier
+                    <p>coles</p>
+                  </h4>
+                  <p class="dia">21</p>
+                </div>
+                <div class="bloque-fecha">
+                  <h4>jue
+                    <p>ves</p>
+                  </h4>
+                  <p class="dia">22</p>
+                </div>
+                <div class="bloque-fecha">
+                  <h4>vier
+                    <p>nes</p>
+                  </h4>
+                  <p class="dia">23</p>
+                </div>
+                <div class="bloque-fecha">
+                  <h4>sa
+                    <p>bado</p>
+                  </h4>
+                  <p class="dia">24</p>
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-6">
+                <div class="talleres">
+                  <div class="carousel slide" id="carousel-example-generic" data-ride="carousel">
+                    <!-- Wrapper for slides-->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <div class="col-taller">
+                          <h5>Creatividad en 20 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 20 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 20 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="col-taller">
+                          <h5>Creatividad en 30 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 30 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 30 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="col-taller">
+                          <h5>Creatividad en 40 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 40 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 40 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="talleres">
+                  <div class="carousel-2 slide" id="carousel-example-generic" data-ride="carousel">
+                    <!-- Wrapper for slides-->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <div class="col-taller">
+                          <h5>Creatividad en 60 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 60 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 60 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="col-taller">
+                          <h5>Creatividad en 70 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 70 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 70 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="talleres">
+                  <div class="carousel-3 slide" id="carousel-example-generic" data-ride="carousel">
+                    <!-- Wrapper for slides-->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <div class="col-taller">
+                          <h5>Creatividad en 80 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 80 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 80 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="col-taller">
+                          <h5>Creatividad en 90 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 90 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 90 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="talleres">
+                  <div class="carousel-4 slide" id="carousel-example-generic" data-ride="carousel">
+                    <!-- Wrapper for slides-->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <div class="col-taller">
+                          <h5>Creatividad en 30 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 30 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 30 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                      <!-- -->
+                      <div class="item">
+                        <div class="col-taller">
+                          <h5>Creatividad en 35 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 35 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 35 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                      <!-- -->
+                    </div>
+                    <!-- -->
+                  </div>
+                </div>
+                <div class="talleres">
+                  <div class="carousel-5 slide" id="carousel-example-generic" data-ride="carousel">
+                    <!-- Wrapper for slides-->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <div class="col-taller">
+                          <h5>Creatividad en 20 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz"><a href="#"><img src="assets/images/cruz.png" alt=""></a></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 20 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 20 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                      <!-- -->
+                      <div class="item">
+                        <div class="col-taller">
+                          <h5>Creatividad en 50 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 50 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 50 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                      <!-- -->
+                    </div>
+                    <!-- -->
+                  </div>
+                  <!-- -->
+                </div>
+                <div class="talleres">
+                  <div class="carousel-6 slide" id="carousel-example-generic" data-ride="carousel">
+                    <!-- Wrapper for slides-->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <div class="col-taller">
+                          <h5>Creatividad en 50 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 50 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 50 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                      <!-- -->
+                      <div class="item">
+                        <div class="col-taller">
+                          <h5>Creatividad en 60 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 60 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                        <div class="col-taller">
+                          <h5>Creatividad en 60 segundos<br>Como hacer un spot radial</h5>
+                          <h6>nilmer cueva</h6>
+                          <p>2 A 6 PM / AULA A701 / CABINA 1</p>
+                          <p>CAMPUS MIRAFLORES</p><span class="cruz">
+                            <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- -->
+                  </div>
+                  <!-- -->
+                </div>
+              </div>
+            </div>
+            <!-- -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-seccion">
+    <!-- BG-GOTA-->
+    <div class="bg-gota"></div>
+    <div id="fondo-seccion-5">
+      <div id="sec-5">
+        <div class="container">
+          <div class="row">
+            <div class="vm"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="fondo-seccion-6">
+      <div class="container-brand">
+        <div class="item-brand"><img src="assets/images/brand/brand-liquid.png" alt=""></div>
+        <div class="item-brand"><img src="assets/images/brand/brand-wacom.png" alt=""></div>
+        <div class="item-brand"><img src="assets/images/brand/brand-vm.png" alt=""></div>
+      </div>
+      <div class="container-brand">
+        <div class="item-brand brand-purple"><img src="assets/images/brand/brand-cannon.png" alt=""></div>
+        <div class="item-brand brand-purple"><img src="assets/images/brand/brand-taller.png" alt=""></div>
+        <div class="item-brand"><img src="assets/images/brand/brand-codigo.png" alt=""></div>
+      </div>
+    </div>
+    <div id="fondo-seccion-7"></div>
+  </div>
+  <!-- START ITEM_1-->
+  <div class="modal fade" id="btn_top1" role="dialog">
+    <div class="modal-dialog index-dialog">
+      <div class="modal-content">
+        <!-- <div class="modal-header"></div>-->
+        <!-- START MODAL BODY-->
+        <button class="close" type="button" data-dismiss="modal" style="font-size: 40px; position: absolute; right: 1%; z-index: 99;">×</button>
+        <div class="modal-body index-message">
+          <div class="pop-bg1 pop-bg-1-1" style="top: 0 !important; margin-left: 0 !important;"></div>
+          <div class="pop-container">
+            <div class="pop-h3 pop-team-1">
+              <h3>EL PODER DEL <br> DISEÑO EDITORIAL</h3>
+            </div>
+            <div class="pop-cnt-txt col-lg-6 col-sm-6 col-xs-6">
+              <h4>EDITORA DE DISEÑO DE LA REVISTA <br> SOMOS - EL COMERCIO</h4>
+              <p>Diseño editorial de la revista semanal SOMOS. Cómo se trabaja una portada en búsqueda de impacto visual, desde bocetos hasta el diseño final. El poder de una imagen. Portadas conceptuales. Cómo se trabaja un reportaje. Rediseño de la revista: pasos, búsqueda de fuentes, tendencias, etc.</p>
+              <div class="pop-social-bar"><img src="assets/images/redes-sociales.png" alt=""></div>
+            </div>
+            <div class="pop-cnt-img col-lg-6 col-sm-6 col-xs-6"><img src="assets/images/exp-1.png" alt=""></div><span class="cruz cruz-popup">
+              <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+          </div>
+          <div class="pop-bg2 pop-bg-1-2"></div>
+          <!-- <img src="assets/images/demo_popup.png" alt="">-->
+        </div>
+        <!-- ENDS MODAL BODY-->
+        <!-- <div class="modal-footer"></div>-->
+      </div>
+    </div>
+  </div>
+  <!-- ENDS ITEM_1-->
+  <!-- START ITEM_2-->
+  <div class="modal fade" id="btn_top2" role="dialog">
+    <div class="modal-dialog index-dialog">
+      <div class="modal-content">
+        <!-- <div class="modal-header"></div>-->
+        <!-- START MODAL BODY-->
+        <button class="close" type="button" data-dismiss="modal" style="font-size: 40px; position: absolute; right: 1%; z-index: 99;">×</button>
+        <div class="modal-body index-message">
+          <div class="pop-bg1 pop-bg-2-1"></div>
+          <div class="pop-container">
+            <div class="pop-h3 pop-blue pop-team-2">
+              <h3>EL DISEÑO CENTRADO EN <br>              LO QUE QUEREMOS LOGRARL</h3>
+            </div>
+            <div class="pop-cnt-txt col-lg-6 col-sm-6 col-xs-6">
+              <h4>EDITORA DE DISEÑO DE LA REVISTA <br> SOMOS - EL COMERCIO</h4>
+              <p>Diseño editorial de la revista semanal SOMOS. Cómo se trabaja una portada en búsqueda de impacto visual, desde bocetos hasta el diseño final. El poder de una imagen. Portadas conceptuales. Cómo se trabaja un reportaje. Rediseño de la revista: pasos, búsqueda de fuentes, tendencias, etc.</p>
+              <div class="pop-social-bar"><img src="assets/images/redes-sociales.png" alt=""></div>
+            </div>
+            <div class="pop-cnt-img col-lg-6 col-sm-6 col-xs-6"><img src="assets/images/exp-2.png" alt=""></div><span class="cruz cruz-popup">
+              <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+          </div>
+          <div class="pop-bg2 pop-bg-2-2"></div>
+          <!-- <img src="assets/images/demo_popup.png" alt="">-->
+        </div>
+        <!-- ENDS MODAL BODY-->
+        <!-- <div class="modal-footer"></div>-->
+      </div>
+    </div>
+  </div>
+  <!-- ENDS ITEM_2-->
+  <!-- START ITEM_3-->
+  <div class="modal fade" id="btn_top3" role="dialog">
+    <div class="modal-dialog index-dialog">
+      <div class="modal-content">
+        <!-- <div class="modal-header"></div>-->
+        <!-- START MODAL BODY-->
+        <button class="close" type="button" data-dismiss="modal" style="font-size: 40px; position: absolute; right: 1%; z-index: 99;">×</button>
+        <div class="modal-body index-message">
+          <div class="pop-bg1 pop-bg-3-1"></div>
+          <div class="pop-container">
+            <div class="pop-h3 pop-purple pop-team-3">
+              <h3>EL DISEÑO CENTRADO EN <br>              LO QUE QUEREMOS LOGRAR</h3>
+            </div>
+            <div class="pop-cnt-txt col-lg-6 col-sm-6 col-xs-6">
+              <h4>EDITORA DE DISEÑO DE LA REVISTA <br> SOMOS - EL COMERCIO</h4>
+              <p>Diseño editorial de la revista semanal SOMOS. Cómo se trabaja una portada en búsqueda de impacto visual, desde bocetos hasta el diseño final. El poder de una imagen. Portadas conceptuales. Cómo se trabaja un reportaje. Rediseño de la revista: pasos, búsqueda de fuentes, tendencias, etc.</p>
+              <div class="pop-social-bar"><img src="assets/images/redes-sociales.png" alt=""></div>
+            </div>
+            <div class="pop-cnt-img col-lg-6 col-sm-6 col-xs-6"><img src="assets/images/exp-3.png" alt=""></div><span class="cruz cruz-popup">
+              <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+          </div>
+          <div class="pop-bg2 pop-bg-3-2"></div>
+          <!-- <img src="assets/images/demo_popup.png" alt="">-->
+        </div>
+        <!-- ENDS MODAL BODY-->
+        <!-- <div class="modal-footer"></div>-->
+      </div>
+    </div>
+  </div>
+  <!-- ENDS ITEM_3-->
+  <!-- START ITEM_4-->
+  <div class="modal fade" id="btn_top4" role="dialog">
+    <div class="modal-dialog index-dialog">
+      <div class="modal-content">
+        <!-- <div class="modal-header"></div>-->
+        <!-- START MODAL BODY-->
+        <button class="close" type="button" data-dismiss="modal" style="font-size: 40px; position: absolute; right: 1%; z-index: 99;">×</button>
+        <div class="modal-body index-message">
+          <div class="pop-bg1 pop-bg-4-1"></div>
+          <div class="pop-container">
+            <div class="pop-h3 pop-orange pop-team-4">
+              <h3>EL DISEÑO CENTRADO EN <br>              LO QUE QUEREMOS LOGRAR</h3>
+            </div>
+            <div class="pop-cnt-txt col-lg-6 col-sm-6 col-xs-6">
+              <h4>EDITORA DE DISEÑO DE LA REVISTA <br> SOMOS - EL COMERCIO</h4>
+              <p>Diseño editorial de la revista semanal SOMOS. Cómo se trabaja una portada en búsqueda de impacto visual, desde bocetos hasta el diseño final. El poder de una imagen. Portadas conceptuales. Cómo se trabaja un reportaje. Rediseño de la revista: pasos, búsqueda de fuentes, tendencias, etc.</p>
+              <div class="pop-social-bar"><img src="assets/images/redes-sociales.png" alt=""></div>
+            </div>
+            <div class="pop-cnt-img col-lg-6 col-sm-6 col-xs-6"><img src="assets/images/exp-4.png" alt=""></div><span class="cruz cruz-popup">
+              <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+          </div>
+          <div class="pop-bg2 pop-bg-4-2"></div>
+          <!-- <img src="assets/images/demo_popup.png" alt="">-->
+        </div>
+        <!-- ENDS MODAL BODY-->
+        <!-- <div class="modal-footer"></div>-->
+      </div>
+    </div>
+  </div>
+  <!-- ENDS ITEM_4-->
+  <!-- START ITEM_5-->
+  <div class="modal fade" id="btn_top5" role="dialog">
+    <div class="modal-dialog index-dialog">
+      <div class="modal-content">
+        <!-- <div class="modal-header"></div>-->
+        <!-- START MODAL BODY-->
+        <button class="close" type="button" data-dismiss="modal" style="font-size: 40px; position: absolute; right: 1%; z-index: 99;">×</button>
+        <div class="modal-body index-message">
+          <div class="pop-bg1 pop-bg-5-1"></div>
+          <div class="pop-container">
+            <div class="pop-h3 pop-blue pop-team-5">
+              <h3>EL DISEÑO CENTRADO EN <br>              LO QUE QUEREMOS LOGRAR</h3>
+            </div>
+            <div class="pop-cnt-txt col-lg-6 col-sm-6 col-xs-6">
+              <h4>EDITORA DE DISEÑO DE LA REVISTA <br> SOMOS - EL COMERCIO</h4>
+              <p>Diseño editorial de la revista semanal SOMOS. Cómo se trabaja una portada en búsqueda de impacto visual, desde bocetos hasta el diseño final. El poder de una imagen. Portadas conceptuales. Cómo se trabaja un reportaje. Rediseño de la revista: pasos, búsqueda de fuentes, tendencias, etc.</p>
+              <div class="pop-social-bar"><img src="assets/images/redes-sociales.png" alt=""></div>
+            </div>
+            <div class="pop-cnt-img col-lg-6 col-sm-6 col-xs-6"><img src="assets/images/exp-5.png" alt=""></div><span class="cruz cruz-popup">
+              <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+          </div>
+          <div class="pop-bg2 pop-bg-5-2"></div>
+          <!-- <img src="assets/images/demo_popup.png" alt="">-->
+        </div>
+        <!-- ENDS MODAL BODY-->
+        <!-- <div class="modal-footer"></div>-->
+      </div>
+    </div>
+  </div>
+  <!-- ENDS ITEM_5-->
+  <!-- START ITEM_6-->
+  <div class="modal fade" id="btn_top6" role="dialog">
+    <div class="modal-dialog index-dialog">
+      <div class="modal-content">
+        <!-- <div class="modal-header"></div>-->
+        <!-- START MODAL BODY-->
+        <button class="close" type="button" data-dismiss="modal" style="font-size: 40px; position: absolute; right: 1%; z-index: 99;">×</button>
+        <div class="modal-body index-message">
+          <div class="pop-bg1 pop-bg-6-1"></div>
+          <div class="pop-container">
+            <div class="pop-h3 pop-purple pop-team-6">
+              <h3>EL DISEÑO CENTRADO EN <br>              LO QUE QUEREMOS LOGRAR</h3>
+            </div>
+            <div class="pop-cnt-txt col-lg-6 col-sm-6 col-xs-6">
+              <h4>EDITORA DE DISEÑO DE LA REVISTA <br> SOMOS - EL COMERCIO</h4>
+              <p>Diseño editorial de la revista semanal SOMOS. Cómo se trabaja una portada en búsqueda de impacto visual, desde bocetos hasta el diseño final. El poder de una imagen. Portadas conceptuales. Cómo se trabaja un reportaje. Rediseño de la revista: pasos, búsqueda de fuentes, tendencias, etc.</p>
+              <div class="pop-social-bar"><img src="assets/images/redes-sociales.png" alt=""></div>
+            </div>
+            <div class="pop-cnt-img col-lg-6 col-sm-6 col-xs-6"><img src="assets/images/exp-6.png" alt=""></div><span class="cruz cruz-popup">
+              <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+          </div>
+          <div class="pop-bg2 pop-bg-6-2"></div>
+          <!-- <img src="assets/images/demo_popup.png" alt="">-->
+        </div>
+        <!-- ENDS MODAL BODY-->
+        <!-- <div class="modal-footer"></div>-->
+      </div>
+    </div>
+  </div>
+  <!-- ENDS ITEM_6-->
+  <!-- START ITEM_7-->
+  <div class="modal fade" id="btn_top7" role="dialog">
+    <div class="modal-dialog index-dialog">
+      <div class="modal-content">
+        <!-- <div class="modal-header"></div>-->
+        <!-- START MODAL BODY-->
+        <button class="close" type="button" data-dismiss="modal" style="font-size: 40px; position: absolute; right: 1%; z-index: 99;">×</button>
+        <div class="modal-body index-message">
+          <div class="pop-bg1 pop-bg-7-1"></div>
+          <div class="pop-container">
+            <div class="pop-h3 pop-orange pop-team-7">
+              <h3>EL DISEÑO CENTRADO EN <br>              LO QUE QUEREMOS LOGRAR</h3>
+            </div>
+            <div class="pop-cnt-txt col-lg-6 col-sm-6 col-xs-6">
+              <h4>EDITORA DE DISEÑO DE LA REVISTA <br> SOMOS - EL COMERCIO</h4>
+              <p>Diseño editorial de la revista semanal SOMOS. Cómo se trabaja una portada en búsqueda de impacto visual, desde bocetos hasta el diseño final. El poder de una imagen. Portadas conceptuales. Cómo se trabaja un reportaje. Rediseño de la revista: pasos, búsqueda de fuentes, tendencias, etc.</p>
+              <div class="pop-social-bar"><img src="assets/images/redes-sociales.png" alt=""></div>
+            </div>
+            <div class="pop-cnt-img col-lg-6 col-sm-6 col-xs-6"><img src="assets/images/exp-7.png" alt=""></div><span class="cruz cruz-popup">
+              <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+          </div>
+          <div class="pop-bg2 pop-bg-7-2"></div>
+          <!-- <img src="assets/images/demo_popup.png" alt="">-->
+        </div>
+        <!-- ENDS MODAL BODY-->
+        <!-- <div class="modal-footer"></div>-->
+      </div>
+    </div>
+  </div>
+  <!-- ENDS ITEM_7-->
+  <!-- START ITEM_8-->
+  <div class="modal fade" id="btn_top8" role="dialog">
+    <div class="modal-dialog index-dialog">
+      <div class="modal-content">
+        <!-- <div class="modal-header"></div>-->
+        <!-- START MODAL BODY-->
+        <button class="close" type="button" data-dismiss="modal" style="font-size: 40px; position: absolute; right: 1%; z-index: 99;">×</button>
+        <div class="modal-body index-message">
+          <div class="pop-bg1 pop-bg-8-1"></div>
+          <div class="pop-container">
+            <div class="pop-h3 pop-blue pop-team-8">
+              <h3>EL DISEÑO CENTRADO EN <br>              LO QUE QUEREMOS LOGRAR</h3>
+            </div>
+            <div class="pop-cnt-txt col-lg-6 col-sm-6 col-xs-6">
+              <h4>EDITORA DE DISEÑO DE LA REVISTA <br> SOMOS - EL COMERCIO</h4>
+              <p>Diseño editorial de la revista semanal SOMOS. Cómo se trabaja una portada en búsqueda de impacto visual, desde bocetos hasta el diseño final. El poder de una imagen. Portadas conceptuales. Cómo se trabaja un reportaje. Rediseño de la revista: pasos, búsqueda de fuentes, tendencias, etc.</p>
+              <div class="pop-social-bar"><img src="assets/images/redes-sociales.png" alt=""></div>
+            </div><span class="cruz cruz-popup">
+              <div class="btn_modal-register" data-toggle="modal" data-target="#btn_pop-registro"><img src="assets/images/cruz.png" alt=""></div></span>
+            <div class="pop-cnt-img col-lg-6 col-sm-6 col-xs-6"><img src="assets/images/exp-8.png" alt=""></div>
+          </div>
+          <div class="pop-bg2 pop-bg-8-2"></div>
+          <!-- <img src="assets/images/demo_popup.png" alt="">-->
+        </div>
+        <!-- ENDS MODAL BODY-->
+        <!-- <div class="modal-footer"></div>-->
+      </div>
+    </div>
+  </div>
+  <!-- ENDS ITEM_8-->
+  <!-- REGISTRO-->
+  <div class="modal fade" id="btn_pop-registro" role="dialog">
+    <div class="modal-dialog index-dialog">
+      <div class="modal-content pop-registro">
+        <div class="pop-registro-border"></div>
+        <!-- <div class="modal-header"></div>-->
+        <!-- START MODAL BODY-->
+        <button class="close" type="button" data-dismiss="modal" style="font-size: 40px;position: absolute;right: 20%;z-index: 99;color: #fff;opacity: 1;">×</button>
+        <div class="modal-body pop-registro-body">
+          <h3>INSCRIPCIÓN</h3>
+          <div class="pop-registro-form">
+            <form action="">
+              <label for=""></label>
+              <input type="text" placeholder="Nombre">
+              <input type="email" placeholder="Correo">
+              <input type="text" placeholder="DNI">
+              <div class="submit">
+                <p>INSCRIBEME</p><i class="fa fa-check" aria-hidden="true"></i>
+              </div>
+            </form>
+          </div>
+          <!-- <img src="img/demo_popup.png" alt="">-->
+        </div>
+        <!-- ENDS MODAL BODY-->
+        <!-- <div class="modal-footer"></div>-->
+      </div>
+    </div>
+  </div>
+</body>
+<footer id="pie-pagina">
+  <div class="container">
+    <div class="row">
+      <div class="campus-location">
+        <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="campus"><img src="assets/images/icon-miraflores.png" alt="">
+            <h5>campus miraflores</h5>
+            <h6>Av. Benavides 778</h6>
+          </div>
+          <!-- -->
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="campus"><img src="assets/images/icon-san-isidro.png" alt="">
+            <h5>campus san isidro</h5>
+            <h6>Av. Benavides 778</h6>
+          </div>
+          <!-- -->
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="campus"><img src="assets/images/icon-la-molina.png" alt="">
+            <h5>campus la molina</h5>
+            <h6>Av. Benavides 778</h6>
+          </div>
+          <!-- -->
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <!-- -->
+    </div>
+    <!-- -->
+    <div class="row">
+      <div class="logo"><img src="assets/images/logo-isil.png" alt=""></div>
+    </div>
+    <!-- -->
+  </div>
+</footer>
